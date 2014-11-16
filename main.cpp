@@ -8,12 +8,25 @@
 
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-	std::string firstName = "";
-	std::cout << "Enter you first name and press Enter: ";
-	std::cin >> firstName;
-	std::cout << std::endl;
-    // insert code here...
-    std::cout << "Hello, " << firstName << std::endl <<std::endl;
+	char letter = 'A';
+	int integer = 0;
+	float dec = 0.0f;
+
+	cout << "Enter a letter: ";
+	cin >> letter;
+	cout << "Enter an Integer: ";
+	cin >> integer;
+
+	cout << "Enter a float number: ";
+	cin >> dec;
+
+	cout << endl;
+
+	cout << "Letter: " << letter << endl;
+	cout << "Integer: " << integer << endl;
+	cout << "Float: " << dec << endl;
+
 }
