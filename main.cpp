@@ -15,6 +15,7 @@ int main(int argc, const char * argv[]) {
 	int integer = 0;
 	float dec = 0.0f;
 
+	//Collect user data
 	cout << "Enter a letter: ";
 	cin >> letter;
 	cout << "Enter an Integer: ";
@@ -25,6 +26,7 @@ int main(int argc, const char * argv[]) {
 
 	cout << endl;
 
+	//Display user data
 	cout << "Letter: " << letter << endl;
 	cout << "Integer: " << integer << endl;
 	cout << "Float: " << dec << endl;
